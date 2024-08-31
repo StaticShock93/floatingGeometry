@@ -32,7 +32,7 @@ earthGroup.add(earthMesh);
 const stars = starField(30000);
 scene.add(stars)
 
-const hemiLight = new THREE.HemisphereLight(0x000000);
+const hemiLight = new THREE.HemisphereLight(0xffffff);
 scene.add(hemiLight);
 
 camera.position.z = 3;
